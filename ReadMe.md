@@ -1,4 +1,4 @@
-# Video Editing Business Landing Page
+#Video Editing Business Landing Page
 
 **Description:**
 Welcome to the landing page for my video editing business. This page provides information about me as an editor, the software I use, the services I offer, and how to get in touch.
