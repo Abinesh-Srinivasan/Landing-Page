@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  padding: 5%;
+  font-weight: 500;
+  font-style: italic;
+  background: url(images/background.jpeg);
+}
+.heading {
+  padding-top: 8%;
+  color: red;
+  font-weight: bold;
+}
+.editing-video,
+.davinci-image {
+  width: 90%;
+  height: 35vh;
+  margin-top: 10%;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.editing-video {
+  border-radius: 10%;
+  opacity: 0.9;
+}
+.division-1,
+.division-2 {
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 7%;
+  margin-top: 3%;
+  border-radius: 2%;
+}
+.sub-title {
+  color: orangered;
+}
+.what-title,
+.how-title {
+  margin-bottom: 3%;
+  color: blue;
+}
+.client-centric-approach,
+.sub-title {
+  margin-top: 3%;
+}
+.paragraph-home {
+  padding-left: 6%;
+}
+.video-editor-description {
+  font-weight: 500;
+}
+
+.video-editor-description,
+.software p {
+  padding: 5%;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10%;
+}
+#about,
+.software {
+  margin-top: 10%;
+}
+.software p {
+  margin-top: 7%;
+}
+.video-editor-image {
+  width: 65%;
+  height: 60vh;
+  margin-top: 7%;
+  border-radius: 10%;
+}
+#varieties,
+#place-order {
+  margin-top: 10%;
+}
+.varieties-sections {
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 8%;
+  border-radius: 10%;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 1s;
+}
+.varieties-sections:hover {
+  transform: translateX(10px);
+}
+.varieties-sections p {
+  font-size: 15px;
+  padding: 3%;
+  color: deeppink;
+  font-weight: 500;
+}
+.varieties-sections img {
+  width: 60%;
+  padding-top: 5%;
+}
+.varieties-sections a {
+  margin-top: 2%;
+}
+.form-input-boxes {
+  background: rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: none;
+  padding: 3.5%;
+  margin-top: 5%;
+  width: 90%;
+  border-radius: 2%;
+}
+.form-input-boxes::placeholder,
+.form-input-boxes p {
+  color: black;
+  font-size: 15px;
+}
+.form-input-boxes p {
+  font-weight: 600;
+}
+form button {
+  padding: 3%;
+  width: 40%;
+  font-weight: bold;
+  border-radius: 5%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-size: 15px;
+  transition: font 1s;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+form button:hover {
+  color: blue;
+  font-size: 17px;
+}
+form button:active {
+  color: red;
+  font-size: 20px;
+}
+.copyright {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5%;
+  color: black;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  .heading {
+    padding-top: 0px;
+    font-size: 30px;
+  }
+  .editing-video {
+    width: 100%;
+    height: 50vh;
+  }
+  .video-editor-image {
+    height: 70vh;
+    width: 40%;
+  }
+  .davinci-image {
+    width: 50%;
+    height: 45vh;
+  }
+  .video-editor-description,
+  .software p {
+    border-radius: 2%;
+  }
+  .varieties-sections {
+    height: 90vh;
+  }
+  .copyright {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 45px;
+  }
+  .editing-video {
+    transition: 1s;
+    margin-top: 5%;
+  }
+  .division-1,
+  .division-2 {
+    font-size: 25px;
+  }
+  #about h2,
+  #varieties h2,
+  #place-order h2 {
+    font-size: 40px;
+  }
+  .video-editor-image {
+    height: 85vh;
+    width: 25%;
+    margin-top: 0;
+    margin-right: 60%;
+  }
+  .video-editor-description {
+    width: 50%;
+    height: 45vh;
+    margin-left: 40%;
+    font-size: 25px;
+    margin-top: -400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .davinci-image {
+    height: 60vh;
+    transition: 1s;
+    width: 38%;
+    margin-top: 5%;
+    margin-right: 60%;
+  }
+  .software p {
+    width: 50%;
+    height: 45vh;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: -350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .varieties-sections:hover,
+  .editing-video:hover,
+  .davinci-image:hover {
+    transform: translateY(-15px);
+  }
+  .marriage-editing {
+    margin-top: 3%;
+  }
+  .varieties-sections img {
+    width: 45%;
+  }
+
+  .varieties-sections {
+    width: 45%;
+    height: 60vh;
+    border-radius: 5%;
+  }
+  .varieties-sections p {
+    font-size: 20px;
+  }
+  .birthday-editing,
+  .funny-editing {
+    margin-left: 50%;
+    margin-top: -340px;
+  }
+  #place-order h2 {
+    margin-top: -50px;
+  }
+  .form-input-boxes {
+    width: 80%;
+    border-radius: 3%;
+    border-radius: 2%;
+    font-size: 25px;
+  }
+  .form-input-boxes::placeholder,
+  .form-input-boxes p,
+  form button {
+    border-radius: 2%;
+    font-size: 30px;
+  }
+  form button:hover {
+    font-size: 33px;
+  }
+  form button:active {
+    font-size: 35px;
+  }
+  .copyright {
+    font-size: 25px;
+  }
+}
